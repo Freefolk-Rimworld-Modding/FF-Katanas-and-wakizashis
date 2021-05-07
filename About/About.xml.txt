@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Rim-Effect: Core beta 4</name>
+	<author>Bram and shakesthespeare</author>
+	<supportedVersions><li>1.2</li></supportedVersions>
+	<packageId>FF.katanas and wakizashis.</packageId>
+	<description>Finally YOU can also satisfy your inner weeb! this mod adds katanas, wakizashis, and maybe more!	</description>
+</ModMetaData>
