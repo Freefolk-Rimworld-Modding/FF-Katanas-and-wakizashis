@@ -16,7 +16,7 @@
     <costStuffCount>85</costStuffCount>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <statBases>
-      <WorkToMake>24000</WorkToMake>
+      <WorkToMake>36000</WorkToMake>
       <Mass>2</Mass>
     </statBases>
     <equippedAngleOffset>65</equippedAngleOffset>
@@ -38,7 +38,7 @@
           <li>Stab</li>
         </capacities>
         <power>18</power>
-        <cooldownTime>1.5</cooldownTime>
+        <cooldownTime>1.4</cooldownTime>
       </li>
       <li>
         <label>edge</label>
@@ -46,7 +46,7 @@
           <li>Cut</li>
         </capacities>
         <power>14</power>
-        <cooldownTime>1.1</cooldownTime>
+        <cooldownTime>1</cooldownTime>
       </li>
     </tools>
     <recipeMaker>
