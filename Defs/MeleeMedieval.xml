@@ -8,7 +8,8 @@
     <graphicData>
       <texPath>Item/Equipment/katana</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
+	  <shaderType>CutoutComplex</shaderType>    
+	</graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
       <li>MedievalMeleeAdvanced</li>
@@ -64,6 +65,7 @@
     <graphicData>
       <texPath>Item/Equipment/tanto</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
@@ -120,6 +122,7 @@
     <graphicData>
       <texPath>Item/Equipment/wakizashi</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
