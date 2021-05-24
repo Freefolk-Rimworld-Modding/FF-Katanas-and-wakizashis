@@ -3,8 +3,8 @@
 <Defs> 
 
 <ThingDef ParentName="HatMakeableBase">
-    <defName>Apparel_WarMask</defName>
-    <label>war mask</label>
+    <defName>FFApparel_Samurai_mask_of_perseverance</defName>
+    <label>samurai mask of perseverance</label>
     <description>An artistically terrifying samurai mask. Legends say that they possed with spirits that affect the wearer. People wearing this masks have said that it makes them feel less pain.</description>
     <techLevel>Neolithic</techLevel>
     <graphicData>
@@ -30,6 +30,63 @@
       <PainShockThreshold>0.20</PainShockThreshold>
       <PainFactor>0.85</PainFactor> 
     </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Purplemask/Purplemask</wornGraphicPath>
+      <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Sculpt</effectWorking>
+      <soundWorking>Recipe_Sculpt</soundWorking>
+      <recipeUsers>
+        <li>SmithingTable</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+      <factionPrerequisiteTags>
+        <li>Medival</li>
+      </factionPrerequisiteTags>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>FFApparel_Samurai_mask_of_Destruction</defName>
+    <label>samurai mask of destruction</label>
+    <description>An artistically terrifying samurai mask. Legends say that they possed with spirits that affect the wearer. People wearing this masks have said that it makes them feel stronger and more adept at combat.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Brownmask/Brownmask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <uiIconScale>1.15</uiIconScale>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1.7</Mass>
+      <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeHitChance>3</MeleeHitChance>
+    <MeleeDodgeChance>3</MeleeDodgeChance>
+    </equippedStatOffsets>
+
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
