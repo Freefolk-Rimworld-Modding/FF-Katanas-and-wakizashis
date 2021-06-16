@@ -61,7 +61,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>FFApparel_Samurai_mask_of_Destruction</defName>
     <label>samurai mask of destruction</label>
-    <description>An artistically terrifying samurai mask. Legends say that they possed with spirits that affect the wearer. People wearing this masks have said that it makes them feel stronger and more adept at combat.</description>
+    <description>An artistically terrifying samurai mask. Legends say that they are possessed with spirits that affect the wearer. People wearing this mask have said that it makes them feel stronger and more adept at combat.</description>
     <techLevel>Neolithic</techLevel>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Brownmask/Brownmask</texPath>
