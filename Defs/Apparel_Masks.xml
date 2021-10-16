@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
 <Defs> 
 
-<ThingDef ParentName="HatMakeableBase">
+  <ThingDef ParentName="HatMakeableBase">
     <defName>FFApparel_Samurai_mask_of_perseverance</defName>
     <label>samurai mask of perseverance</label>
-    <description>An artistically terrifying samurai mask. Legends say that they possed with spirits that affect the wearer. People wearing this masks have said that it makes them feel less pain.</description>
+    <description>An artistically terrifying samurai mask. Legends say that they are possessed with spirits that affect the wearer. People wearing this masks have said that it makes them feel less pain.</description>
     <techLevel>Neolithic</techLevel>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Purplemask/Purplemask</texPath>
@@ -28,7 +27,6 @@
     </statBases>
     <equippedStatOffsets>
       <PainShockThreshold>0.20</PainShockThreshold>
-      <PainFactor>0.85</PainFactor> 
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -49,11 +47,12 @@
       <effectWorking>Sculpt</effectWorking>
       <soundWorking>Recipe_Sculpt</soundWorking>
       <recipeUsers>
-        <li>SmithingTable</li>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
       <factionPrerequisiteTags>
-        <li>Medival</li>
+        <li>Medieval</li>
       </factionPrerequisiteTags>
     </recipeMaker>
   </ThingDef>
@@ -86,7 +85,6 @@
       <MeleeHitChance>3</MeleeHitChance>
     <MeleeDodgeChance>3</MeleeDodgeChance>
     </equippedStatOffsets>
-
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -106,11 +104,12 @@
       <effectWorking>Sculpt</effectWorking>
       <soundWorking>Recipe_Sculpt</soundWorking>
       <recipeUsers>
-        <li>SmithingTable</li>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
       <factionPrerequisiteTags>
-        <li>Medival</li>
+        <li>Medieval</li>
       </factionPrerequisiteTags>
     </recipeMaker>
   </ThingDef>
@@ -118,7 +117,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>FFApparel_Samurai_mask_of_Communicating</defName>
     <label>samurai mask of communicating</label>
-    <description>An artistically terrifying samurai mask. Legends say that they possed with spirits that affect the wearer. People wearing this masks have said that it makes them feel more persuasive in negotiations.</description>
+    <description>An artistically terrifying samurai mask. Legends say that they are possessed with spirits that affect the wearer. People wearing this masks have said that it makes them feel more persuasive in negotiations.</description>
     <techLevel>Neolithic</techLevel>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Redmask/Redmask</texPath>
@@ -140,9 +139,9 @@
       <EquipDelay>1.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <SocialImpact>15</SocialImpact>
+      <SocialImpact>0.15</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
     </equippedStatOffsets>
-
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -162,11 +161,12 @@
       <effectWorking>Sculpt</effectWorking>
       <soundWorking>Recipe_Sculpt</soundWorking>
       <recipeUsers>
-        <li>SmithingTable</li>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
       <factionPrerequisiteTags>
-        <li>Medival</li>
+        <li>Medieval</li>
       </factionPrerequisiteTags>
     </recipeMaker>
   </ThingDef>
