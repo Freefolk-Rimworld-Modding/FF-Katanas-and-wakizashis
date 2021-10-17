@@ -51,9 +51,6 @@
         <li>FueledSmithy</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
-      <factionPrerequisiteTags>
-        <li>Medieval</li>
-      </factionPrerequisiteTags>
     </recipeMaker>
   </ThingDef>
 
@@ -108,9 +105,6 @@
         <li>FueledSmithy</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
-      <factionPrerequisiteTags>
-        <li>Medieval</li>
-      </factionPrerequisiteTags>
     </recipeMaker>
   </ThingDef>
 
@@ -165,9 +159,6 @@
         <li>FueledSmithy</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
-      <factionPrerequisiteTags>
-        <li>Medieval</li>
-      </factionPrerequisiteTags>
     </recipeMaker>
   </ThingDef>
 
